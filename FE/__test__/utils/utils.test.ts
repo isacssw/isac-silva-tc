@@ -6,7 +6,6 @@ import {
   duplicatedExpectedSortedArray,
   expectedSortedArray,
 } from '../mocks/asteroidArrays'
-import { describe } from 'node:test'
 
 describe('should Sort the asteroids by name', () => {
   it('should sort an array of asteroids by name in alphabetical order', () => {

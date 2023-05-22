@@ -38,6 +38,12 @@ The BE folder is the Back End part of the challenge:
 
 to run the project, just follow the steps:
 
+Create a file .env inside the BE folder with the following:
+
+PORT=3333
+BASE_API_URL="https://api.nasa.gov/neo/rest/v1/feed"
+NASA_API_KEY="DEMO_KEY"
+
 ```bash
 cd BE/
 
